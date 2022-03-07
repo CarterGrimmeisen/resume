@@ -1,3 +1,3 @@
-# My Resumé
+# My Resume
 
-Can be viewed publicly at https://cartergrimmeisen.github.io/resume or https://carter.grimmeisen.xyz (soon...)
+Can be viewed publicly at https://carter.grimmeisen.xyz and https://cartergrimmeisen.github.io/resume
