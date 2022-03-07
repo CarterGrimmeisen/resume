@@ -8,14 +8,13 @@ education:
     institution: University of Alabama Huntsville
     gpa: "4.0"
 experience:
-  - position: Software Engineering Intern
+  - position: Software Engineer - Intern
     period: May 2020 - Present
     company: Northrop Grumman
     description: >-
       + Developed Ada mocking framework for unit testing legacy codebase <strong>(Ada)</strong><br />
       + Scripted and documented metrics reporting process <strong>(Bash, Python)</strong><br />
-      + Created a VS Code extension for Ada development in classified environment<br />
-      + Saved hundreds of man-hours of engineers' time by automating the process of sending review requests <strong>(Powershell)</strong>
+      + Received employee recognition award for automating complex email review process, saving hundreds of engineering hours per week <strong>(Powershell)</strong>
   - position: Software Developer
     period: March 2017 - May 2020
     company: Avilution, LLC.
@@ -46,9 +45,10 @@ certifications:
   - Network+ [Expired]
 info:
   profile: >-
-    I am a driven graduate student, currently seeking a Master's in Software Engineering. I have a wide variety of both
-    personal and professional experience in the field. I am a solution-oriented engineer and deeply passionate about developer experience.
-    My current fascination is metaprogramming in TypeScript and I am continually thrilled to learn about up-and-coming technologies.
+    I am a driven graduate student, currently seeking a Master's in Software Engineering. My wide variety of both
+    personal and professional experience in the software field makes me a quick learner no matter the tech stack.
+    I am a solution-oriented engineer and have a passion for optimizing developer experience. My current fascination is
+    metaprogramming in TypeScript and I am continually thrilled to learn about up-and-coming technologies.
   title: Software Engineer
   github: CarterGrimmeisen
 label:

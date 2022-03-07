@@ -32,22 +32,32 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <section flex="~" pos="absolute" align="items-center" print:display="hidden">
+  <section
+    flex="~"
+    pos="absolute"
+    w="full"
+    align="items-center"
+    print:display="hidden"
+  >
     <LanguageSwitcher v-if="!isProduction" p="10px" m="r-[-20px]" />
-    <Button
-      @click="doPrint"
-    >
-      <bi-printer font="leading-0" text="18px" dark:text="white" flex="~" align="items-center" />
-    </Button>
-    <Button
-      @click="() => toggleDark()"
-    >
-      <bi-sun v-if="isDark" font="leading-0" text="18px white" flex="~" align="items-center" />
-      <bi-moon v-else font="leading-0" text="18px" flex="~" align="items-center" />
-    </Button>
-    <Button href="https://github.com/CarterGrimmeisen/resume">
-      <bi-github font="leading-0" text="18px" dark:text="white" flex="~" align="items-center" />
-    </Button>
+    <div display="inline-flex">
+      <Button
+        m="r-[-10px]"
+        @click="doPrint"
+      >
+        <bi-printer-fill font="leading-0" text="18px" dark:text="white" flex="~" align="items-center" />
+      </Button>
+      <Button
+        m="r-[-10px]"
+        @click="() => toggleDark()"
+      >
+        <bi-sun-fill v-if="isDark" font="leading-0" text="18px white" flex="~" align="items-center" />
+        <bi-moon-fill v-else font="leading-0" text="18px" flex="~" align="items-center" />
+      </Button>
+      <Button href="https://github.com/CarterGrimmeisen/resume">
+        <bi-github font="leading-0" text="18px" dark:text="white" flex="~" align="items-center" />
+      </Button>
+    </div>
   </section>
 
   <div class="box">
@@ -66,6 +76,9 @@ onBeforeUnmount(() => {
 </template>
 
 <style scoped>
+section {
+  justify-content: start;
+}
 .print-button:hover {
   background-color: rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease-out;
@@ -93,7 +106,17 @@ onBeforeUnmount(() => {
   height: 100px;
   width: 100px;
 }
+
+@media (max-width: 10cm) {
+  section {
+    display: none;
+  }
+}
+
 @media (max-width: 21cm) {
+  section {
+    justify-content: space-between !important;
+  }
   .box {
     padding-top: 20px;
     flex-direction: column-reverse;

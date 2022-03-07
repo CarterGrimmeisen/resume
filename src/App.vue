@@ -45,7 +45,7 @@ html.dark body {
 }
 @media print {
   .a4 {
-    margin: 0;
+    margin: 0 !important;
     width: 25cm !important;
   }
 }

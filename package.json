@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "dev": "vite --port 3333 --open",
+    "dev": "vite --port 3333",
+    "dev:gitpod": "GITPOD=1 vite --port 3333",
     "build": "vite build",
     "preview": "vite preview",
     "preview-https": "serve dist",

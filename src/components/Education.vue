@@ -9,7 +9,7 @@ const educationCount = computed(() => (messages.value as Messages)?.en?.educatio
   <Title>
     {{ t('label.education') }}
   </Title>
-  <section v-for="index in educationCount" :key="index" m="b-2em" m:last="b-0">
+  <section v-for="index in educationCount" :key="index" m="b-2em" last:m="b-0">
     <Headline v-html="t(`education[${index - 1}].degree`)" />
     <Paragraph>
       {{ t(`education[${index - 1}].completed`) }}

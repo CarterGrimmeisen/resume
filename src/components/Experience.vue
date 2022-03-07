@@ -11,7 +11,7 @@ const experienceCount = computed(() => (messages.value as Messages)?.en?.experie
   </Title>
   <section v-for="index in experienceCount" :key="index" m="b-2em" last:m="0">
     <section flex="~" align="items-center" justify="between">
-      <SubTitle>
+      <SubTitle p="r-45px">
         {{ t(`experience[${index - 1}].position`) }}
       </SubTitle>
       <SubTitle>

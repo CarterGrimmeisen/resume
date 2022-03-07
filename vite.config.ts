@@ -107,6 +107,9 @@ export default defineConfig({
   ],
 
   server: {
+    hmr: {
+      clientPort: process.env.GITPOD ? 443 : undefined,
+    },
     fs: {
       strict: true,
     },

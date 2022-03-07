@@ -16,7 +16,7 @@ const props = defineProps({
       w="auto"
       h="auto"
       p="10px"
-      m="10px r-[-10px]"
+      m="10px"
     >
       <slot />
     </button>
