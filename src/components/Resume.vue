@@ -76,7 +76,7 @@
 .header {
   display: flex;
   grid-area: header;
-  background-image: url("/wave.svg");
+  background-image: url("../assets/wave.svg");
   background-repeat: no-repeat;
 }
 .contacts {
@@ -108,7 +108,7 @@
       "skills";
   }
   .header {
-    background-image: url("/wave-mobile.svg") !important;
+    background-image: url("../assets/wave-mobile.svg") !important;
   }
   .contacts,
   .skills,

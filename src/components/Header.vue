@@ -60,7 +60,7 @@ onBeforeUnmount(() => {
       </SubTitle>
     </div>
     <div class="person-photo">
-      <img class="person-photo-image" src="/profile.jpg" />
+      <img class="person-photo-image" src="../assets/profile.jpg" />
     </div>
   </div>
 </template>
