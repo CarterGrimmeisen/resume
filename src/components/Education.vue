@@ -1,0 +1,23 @@
+<script setup lang="ts">
+import { Messages } from '../types'
+const { t, messages } = useI18n()
+
+const educationCount = computed(() => (messages.value as Messages)?.en?.education?.length)
+</script>
+
+<template>
+  <Title>
+    {{ t('label.education') }}
+  </Title>
+  <section v-for="index in educationCount" :key="index" m="b-2em" m:last="b-0">
+    <Headline v-html="t(`education[${index - 1}].degree`)" />
+    <Paragraph>
+      {{ t(`education[${index - 1}].completed`) }}
+      -
+      {{ t(`education[${index - 1}].gpa`) }} GPA
+    </Paragraph>
+    <Paragraph>
+      {{ t(`education[${index - 1}].institution`) }}
+    </Paragraph>
+  </section>
+</template>

@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "@antfu"
+  ],
+  "rules": {
+    "brace-style": ["warn", "1tbs"]
+  }
+}
