@@ -16,10 +16,14 @@ const projectCount = computed(() => (messages.value as Messages)?.en?.projects?.
           {{ t(`projects[${index - 1}].name`) }}
         </a>
       </SubTitle>
-      <SubTitle print:display="hidden">
+      <SubTitle>
         <a :href="t(`projects[${index - 1}].github`)" target="_blank">
-          <bi-github dark:text="white" m="l-1" text="black" />
+          <bi-github dark:text="white" m="l-1" print:display="hidden" text="black" />
         </a>
+
+        <p display="hidden" font="normal tracking-normal" print:display="block" text="paragraph black normal-case">
+          {{ t(`projects[${index - 1}].github`) }}
+        </p>
       </SubTitle>
     </section>
 
