@@ -32,44 +32,46 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <section
-    align="items-center"
-    flex="~"
-    pos="absolute"
-    print:display="hidden"
-  >
-    <LanguageSwitcher v-if="!isProduction" m="r-[-20px]" p="10px" />
-    <div display="inline-flex">
-      <Button
-        m="r-[-10px]"
-        @click="doPrint"
-      >
-        <bi-printer-fill align="items-center" dark:text="white" flex="~" font="leading-0" text="18px" />
-      </Button>
-      <Button
-        m="r-[-10px]"
-        @click="() => toggleDark()"
-      >
-        <bi-sun-fill v-if="isDark" align="items-center" flex="~" font="leading-0" text="18px white" />
-        <bi-moon-fill v-else align="items-center" flex="~" font="leading-0" text="18px" />
-      </Button>
-      <Button href="https://github.com/CarterGrimmeisen/resume">
-        <bi-github align="items-center" dark:text="white" flex="~" font="leading-0" text="18px" />
-      </Button>
-    </div>
-  </section>
+  <div w="full">
+    <section
+      align="items-center"
+      flex="~"
+      m="b-[-62px]"
+      print:display="hidden"
+    >
+      <LanguageSwitcher v-if="!isProduction" m="r-[-20px]" p="10px" />
+      <div display="inline-flex">
+        <Button
+          m="r-[-10px]"
+          @click="doPrint"
+        >
+          <bi-printer-fill align="items-center" dark:text="white" flex="~" font="leading-0" text="18px" />
+        </Button>
+        <Button
+          m="r-[-10px]"
+          @click="() => toggleDark()"
+        >
+          <bi-sun-fill v-if="isDark" align="items-center" flex="~" font="leading-0" text="18px white" />
+          <bi-moon-fill v-else align="items-center" flex="~" font="leading-0" text="18px" />
+        </Button>
+        <Button href="https://github.com/CarterGrimmeisen/resume">
+          <bi-github align="items-center" dark:text="white" flex="~" font="leading-0" text="18px" />
+        </Button>
+      </div>
+    </section>
 
-  <div class="box">
-    <div class="person-info">
-      <Title class="person-info-name">
-        Carter Grimmeisen
-      </Title>
-      <SubTitle class="person-info-position">
-        {{ t('info.title') }}
-      </SubTitle>
-    </div>
-    <div class="person-photo">
-      <img class="person-photo-image" src="../assets/profile.jpg" />
+    <div class="box">
+      <div class="person-info">
+        <Title class="person-info-name">
+          Carter Grimmeisen
+        </Title>
+        <SubTitle class="person-info-position">
+          {{ t('info.title') }}
+        </SubTitle>
+      </div>
+      <div class="person-photo">
+        <img class="person-photo-image" src="../assets/profile.jpg" />
+      </div>
     </div>
   </div>
 </template>
@@ -106,7 +108,7 @@ section {
   width: 100px;
 }
 
-@media (max-width: 14cm) {
+@media (max-width: 11cm) {
   section {
     display: none;
   }

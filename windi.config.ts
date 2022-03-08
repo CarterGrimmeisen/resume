@@ -14,7 +14,7 @@ export default defineConfig({
       print: { raw: 'print' },
       mobile: { raw: '(max-width: 21cm)' },
       morprint: { raw: 'print, (max-width: 21cm)' },
-      tiny: { raw: '(max-width: 10cm)' },
+      tiny: { raw: '(max-width: 11cm)' },
     },
     extend: {
       fontSize: {
