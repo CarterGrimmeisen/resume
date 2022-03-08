@@ -13,10 +13,12 @@ const props = defineProps({
       bg="transparent"
       border="none"
       cursor="pointer"
-      w="auto"
       h="auto"
-      p="10px"
+      hover:bg="black/10"
+      hover:transition="all duration-500 ease-out"
       m="10px"
+      p="10px"
+      w="auto"
     >
       <slot />
     </button>

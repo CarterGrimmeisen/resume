@@ -23,18 +23,18 @@ const languageNames = {
 <template>
   <div flex="~ col">
     <button
-      class="unselectable-text"
-      p="10px"
-      w="auto"
-      border="none"
-      bg="transparent"
-      cursor="pointer"
-      text="center"
-      display="flex"
       align="items-center"
-      hover:bg="black/10"
+      bg="transparent"
+      border="none"
+      class="unselectable-text"
+      cursor="pointer"
       dark:hover:bg="white/10"
+      display="flex"
+      hover:bg="black/10"
       hover:transition="all duration-500 ease-out"
+      p="10px"
+      text="center"
+      w="auto"
       @click="toggleDropdown"
     >
       <Headline p="l-5px" text="uppercase">
@@ -45,32 +45,32 @@ const languageNames = {
     <div
       v-if="dropdownIsVisible"
       v-click-outside="clickOutsideDropdown"
-      pos="absolute"
       bg="gray-200"
       dark:bg="gray-800"
-      w="100px"
-      shadow="lg black/20"
       dark:shadow="white/20"
+      pos="absolute"
+      shadow="lg black/20"
+      w="100px"
     >
       <button
         v-for="lang in availableLocales.slice().reverse()"
         :key="lang"
-        class="unselectable-text"
-        text="left"
-        border="solid b-1 b-black/10"
-        dark:border="b-white/10"
-        last:border="none"
         bg="gray-200"
-        dark:bg="gray-800"
+        border="solid b-1 b-black/10"
+        class="unselectable-text"
         cursor="pointer"
-        w="full"
-        p="x-10px y-12px"
-        hover:bg="black/10"
+        dark:bg="gray-800"
+        dark:border="b-white/10"
         dark:hover:bg="white/10"
+        hover:bg="black/10"
         hover:transition="all duration-500 ease-out"
+        last:border="none"
+        p="x-10px y-12px"
+        text="left"
+        w="full"
         @click.capture="selectLanguage(lang)"
       >
-        <Paragraph :class="{ 'current-language': currentLocale === lang }" cursor="pointer" p="l-5px" font="600">
+        <Paragraph :class="{ 'current-language': currentLocale === lang }" cursor="pointer" font="600" p="l-5px">
           {{ languageNames[lang as keyof typeof languageNames] }}
         </Paragraph>
       </button>

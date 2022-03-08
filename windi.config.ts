@@ -11,8 +11,10 @@ export default defineConfig({
   ],
   theme: {
     screens: {
-      dark: { raw: 'not print' },
       print: { raw: 'print' },
+      mobile: { raw: '(max-width: 21cm)' },
+      morprint: { raw: 'print, (max-width: 21cm)' },
+      tiny: { raw: '(max-width: 10cm)' },
     },
     extend: {
       fontSize: {

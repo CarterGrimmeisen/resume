@@ -8,10 +8,10 @@ const { t } = useI18n()
     <bi-telephone-fill dark:text="white" />
     <Paragraph
       class="contact"
-      text="underline"
-      print:text="no-underline"
-      hover:text="red-500"
       dark:hover:text="red-400"
+      hover:text="red-500"
+      print:text="no-underline"
+      text="underline"
     >
       <a href="tel:+18607266992">(860) 726-6992</a>
     </Paragraph>
@@ -20,10 +20,10 @@ const { t } = useI18n()
     <bi-envelope-fill dark:text="white" />
     <Paragraph
       class="contact"
-      text="underline"
-      print:text="no-underline"
-      hover:text="red-500"
       dark:hover:text="red-400"
+      hover:text="red-500"
+      print:text="no-underline"
+      text="underline"
     >
       <a href="mailto:cpgrimmeisen@gmail.com">cpgrimmeisen@gmail.com</a>
     </Paragraph>
@@ -32,10 +32,10 @@ const { t } = useI18n()
     <bi-github dark:text="white" />
     <Paragraph
       class="contact"
-      text="underline"
-      print:text="no-underline"
-      hover:text="red-500"
       dark:hover:text="red-400"
+      hover:text="red-500"
+      print:text="no-underline"
+      text="underline"
     >
       <a href="https://github.com/CarterGrimmeisen" target="_blank">CarterGrimmeisen</a>
     </Paragraph>
@@ -44,10 +44,10 @@ const { t } = useI18n()
     <bi-linkedin dark:text="white" />
     <Paragraph
       class="contact"
-      text="underline"
-      print:text="no-underline"
-      hover:text="red-500"
       dark:hover:text="red-400"
+      hover:text="red-500"
+      print:text="no-underline"
+      text="underline"
     >
       <a href="https://linkedin.com/in/carter-grimmeisen" target="_blank">carter-grimmeisen</a>
     </Paragraph>
@@ -56,12 +56,9 @@ const { t } = useI18n()
 
 <style scoped>
 .contact-line {
-  display: flex;
-  margin: 0 auto;
-  align-items: center;
+  @apply flex my-0 mx-auto items-center;
 }
 .contact {
-  padding-left: 1em;
-  margin: 0.25em;
+  @apply pl-1em m-[0.25em];
 }
 </style>

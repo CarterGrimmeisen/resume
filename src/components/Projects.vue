@@ -10,7 +10,7 @@ const projectCount = computed(() => (messages.value as Messages)?.en?.projects?.
     {{ t('label.projects') }}
   </Title>
   <section v-for="index in projectCount" :key="index" m="b-1em">
-    <section flex="~" align="items-center" justify="between" text="underline" print:text="no-underline">
+    <section align="items-center" flex="~" justify="between" print:text="no-underline" text="underline">
       <SubTitle hover:text="red-800">
         <a :href="t(`projects[${index - 1}].github`)" target="_blank">
           {{ t(`projects[${index - 1}].name`) }}
@@ -18,7 +18,7 @@ const projectCount = computed(() => (messages.value as Messages)?.en?.projects?.
       </SubTitle>
       <SubTitle print:display="hidden">
         <a :href="t(`projects[${index - 1}].github`)" target="_blank">
-          <bi-github text="black" dark:text="white" m="l-1" />
+          <bi-github dark:text="white" m="l-1" text="black" />
         </a>
       </SubTitle>
     </section>

@@ -33,29 +33,28 @@ onBeforeUnmount(() => {
 
 <template>
   <section
+    align="items-center"
     flex="~"
     pos="absolute"
-    w="full"
-    align="items-center"
     print:display="hidden"
   >
-    <LanguageSwitcher v-if="!isProduction" p="10px" m="r-[-20px]" />
+    <LanguageSwitcher v-if="!isProduction" m="r-[-20px]" p="10px" />
     <div display="inline-flex">
       <Button
         m="r-[-10px]"
         @click="doPrint"
       >
-        <bi-printer-fill font="leading-0" text="18px" dark:text="white" flex="~" align="items-center" />
+        <bi-printer-fill align="items-center" dark:text="white" flex="~" font="leading-0" text="18px" />
       </Button>
       <Button
         m="r-[-10px]"
         @click="() => toggleDark()"
       >
-        <bi-sun-fill v-if="isDark" font="leading-0" text="18px white" flex="~" align="items-center" />
-        <bi-moon-fill v-else font="leading-0" text="18px" flex="~" align="items-center" />
+        <bi-sun-fill v-if="isDark" align="items-center" flex="~" font="leading-0" text="18px white" />
+        <bi-moon-fill v-else align="items-center" flex="~" font="leading-0" text="18px" />
       </Button>
       <Button href="https://github.com/CarterGrimmeisen/resume">
-        <bi-github font="leading-0" text="18px" dark:text="white" flex="~" align="items-center" />
+        <bi-github align="items-center" dark:text="white" flex="~" font="leading-0" text="18px" />
       </Button>
     </div>
   </section>
@@ -107,13 +106,13 @@ section {
   width: 100px;
 }
 
-@media (max-width: 10cm) {
+@media (max-width: 14cm) {
   section {
     display: none;
   }
 }
 
-@media (max-width: 21cm) {
+@media (max-width: 21cm), print {
   section {
     justify-content: space-between !important;
   }
@@ -132,15 +131,10 @@ section {
   .person-info-position {
     text-align: center;
   }
-  .actions-section {
-    width: 100%;
-    justify-content: space-between;
-  }
 }
 @media print {
   .box {
     padding-top: 0;
-    flex-direction: column-reverse;
   }
 }
 </style>

@@ -1,10 +1,11 @@
 <template>
   <div
-    class="a4"
     bg="gray-200"
+    class="a4"
     dark:bg="gray-700"
     display="block"
     m="y-[1.5cm] x-auto"
+    print:shadow="none"
     shadow="lg"
   >
     <Resume />
@@ -40,7 +41,7 @@ html.dark body {
     min-height: auto !important;
     box-shadow: none !important;
     margin: 0 !important;
-    margin-top: 0;
+    margin-top: 0 !important;
   }
 }
 @media print {
