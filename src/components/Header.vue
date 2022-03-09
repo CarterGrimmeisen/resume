@@ -2,7 +2,7 @@
 import { isDark, toggleDark } from '~/logic'
 const { t } = useI18n()
 
-const isProduction = process.env.NODE_ENV === 'production'
+const isProduction = process.env.NODE_ENV !== 'production'
 
 const doPrint = () => {
   const html = document.querySelector('html')
@@ -40,7 +40,7 @@ onBeforeUnmount(() => {
       print:display="hidden"
     >
       <LanguageSwitcher v-if="!isProduction" m="r-[-20px]" p="10px" />
-      <div display="inline-flex">
+      <div flex="~ row">
         <Button
           m="r-[-10px]"
           @click="doPrint"
@@ -108,9 +108,14 @@ section {
   width: 100px;
 }
 
-@media (max-width: 10cm) {
+@media (max-width: 12.9cm) {
   section {
-    display: none;
+    align-items: flex-start;
+    margin-bottom: -185px;
+  }
+
+  section > div {
+    flex-direction: column;
   }
 }
 
