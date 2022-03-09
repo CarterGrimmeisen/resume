@@ -108,7 +108,7 @@ section {
   width: 100px;
 }
 
-@media (max-width: 11cm) {
+@media (max-width: 10cm) {
   section {
     display: none;
   }
