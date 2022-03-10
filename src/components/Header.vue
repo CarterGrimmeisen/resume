@@ -2,7 +2,7 @@
 import { isDark, toggleDark } from '~/logic'
 const { t } = useI18n()
 
-const isProduction = process.env.NODE_ENV !== 'production'
+const isProduction = process.env.NODE_ENV === 'production'
 
 const doPrint = () => {
   const html = document.querySelector('html')
