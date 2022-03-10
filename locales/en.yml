@@ -34,7 +34,7 @@ projects:
   - name: Free Real Estate
     technologies: 'TypeScript, Nuxt.js (Vue.js),  Express.js, Jest, PostgreSQL'
     description: >-
-      An all inclusive real estate discovery platform similar in purpose to Zillow. Allows users to browse photos and information about
+      An all-inclusive real estate discovery platform similar in purpose to Zillow. Allows users to browse photos and information about
       available properties and to schedule showings to view listings they're interested in. Meanwhile, from a private management backend, real estate
       agents can create and edit listings and receive analytics and notifications for scheduled showings via email.
     github: https://github.com/CarterGrimmeisen/free-real-estate
@@ -45,10 +45,9 @@ certifications:
   - Network+ [Expired]
 info:
   profile: >-
-    I am a driven graduate student, currently seeking a Master's in Software Engineering. My wide variety of both
-    personal and professional experience in the software field makes me a quick learner no matter the tech stack.
-    I am a solution-oriented engineer and have a passion for optimizing developer experience. My current fascination is
-    metaprogramming in TypeScript and I am continually thrilled to learn about up-and-coming technologies.
+    I am a driven graduate student, currently seeking a Master's in Software Engineering. My wide variety of both personal and professional experience
+    in the software field makes me a quick learner, no matter the tech stack. I am a solution-oriented engineer and have a passion for optimizing
+    developer experience. My current fascination is metaprogramming in TypeScript, and I am continually thrilled to learn about up-and-coming technologies.
   title: Software Engineer
   github: CarterGrimmeisen
 label:
