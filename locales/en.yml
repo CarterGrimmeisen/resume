@@ -8,8 +8,15 @@ education:
     institution: University of Alabama Huntsville
     gpa: "4.0"
 experience:
+  - position: Research Engineer
+    period: June 2022 - Present
+    company: CFD Research
+    description: >-
+      + Developed web-based, realtime event dashboard for monitoring and configuring in-house software-defined firewall <strong>(SvelteKit, JavaScript, SQL)</strong><br />
+      + Built PyTorch dataloading capabilities for SQLite database <strong>(Python, SQL)</strong><br />
+      + Developed Python monorepo tooling for AI/ML projects using Conda <strong>(Python)</strong><br />
   - position: Software Engineer - Intern
-    period: May 2020 - Present
+    period: May 2020 - May 2022
     company: Northrop Grumman
     description: >-
       + Developed Ada mocking framework for unit testing legacy codebase <strong>(Ada)</strong><br />
@@ -21,7 +28,6 @@ experience:
     description: >-
       + Implemented cryptographic signing for flight critical configuration <strong>(C, ECDSA)</strong><br /> 
       + Contributed to software avionics development <strong>(C)</strong><br />
-      + Developed embedded Linux distribution for avionics computers <strong>(Yocto)</strong><br />
       + Constructed web-based application for aircraft management <br />&emsp;<strong>(PostgreSQL, MongoDB, Typescript, Vue.js)</strong><br />
       + Designed desktop application to manage display layouts and graphics <br />&emsp;<strong>(Typescript, Node.js, Electron, Vue.js)</strong>
 
@@ -31,13 +37,6 @@ projects:
     description: >-
       Generates Zod schemas for database models defined in your Prisma schema in order to validate user input.
     github: https://github.com/CarterGrimmeisen/zod-prisma
-  - name: Free Real Estate
-    technologies: 'TypeScript, Nuxt.js (Vue.js),  Express.js, Jest, PostgreSQL'
-    description: >-
-      An all-inclusive real estate discovery platform similar in purpose to Zillow. Allows users to browse photos and information about
-      available properties and to schedule showings to view listings they're interested in. Meanwhile, from a private management backend, real estate
-      agents can create and edit listings and receive analytics and notifications for scheduled showings via email.
-    github: https://github.com/CarterGrimmeisen/free-real-estate
 certifications:
   - Linux+
   - LPIC-1 Linux Administrator
@@ -45,9 +44,9 @@ certifications:
   - Network+ [Expired]
 info:
   profile: >-
-    I am a driven graduate student, currently seeking a Master's in Software Engineering. My wide variety of both personal and professional experience
+    I am a driven graduate student, currently seeking a Master's in Computer Science. My wide variety of both personal and professional experience
     in the software field makes me a quick learner, no matter the tech stack. I am a solution-oriented engineer and have a passion for optimizing
-    developer experience. My current fascination is metaprogramming in TypeScript, and I am continually thrilled to learn about up-and-coming technologies.
+    developer experience. I love finding ways to speed up development, and I am continually thrilled to learn about up-and-coming technologies.
   title: Software Engineer
   github: CarterGrimmeisen
 label:
