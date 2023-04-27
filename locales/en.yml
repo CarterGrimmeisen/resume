@@ -63,4 +63,4 @@ skills:
   - category: Frameworks and Runtimes
     items: "Node.js, Jest, Express.js, Flask, Vue.js, Svelte, React, Electron, Flutter"
   - category: Development Tools
-    items: "Git, GitHub, Jenkins, PostgreSQL, MongoDB"
+    items: "Git, GitHub, Jenkins, PostgreSQL, SQLite, MongoDB"
