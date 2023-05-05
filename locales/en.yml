@@ -13,8 +13,8 @@ experience:
     company: CFD Research
     description: >-
       + Developed web-based, realtime event dashboard for monitoring and configuring in-house software-defined firewall <strong>(SvelteKit, JavaScript, SQL)</strong><br />
-      + Built PyTorch dataloading capabilities for SQLite database <strong>(Python, SQL)</strong><br />
-      + Developed Python monorepo tooling for AI/ML projects using Conda <strong>(Python)</strong><br />
+      + Accelerated model development and DX with PyTorch dataloader for datasets stored in SQLite <strong>(Python, SQL)</strong><br />
+      + Simplified developer collaboration with Python monorepo tooling for AI/ML projects using Conda <strong>(Python)</strong><br />
   - position: Software Engineer - Intern
     period: May 2020 - May 2022
     company: Northrop Grumman
@@ -28,7 +28,7 @@ experience:
     description: >-
       + Implemented cryptographic signing for flight critical configuration <strong>(C, ECDSA)</strong><br /> 
       + Contributed to software avionics development <strong>(C)</strong><br />
-      + Constructed web-based application for aircraft management <br />&emsp;<strong>(PostgreSQL, MongoDB, Typescript, Vue.js)</strong><br />
+      + Constructed web-based application for aircraft management <br />&emsp;<strong>(MongoDB, Typescript, Vue.js)</strong><br />
       + Designed desktop application to manage display layouts and graphics <br />&emsp;<strong>(Typescript, Node.js, Electron, Vue.js)</strong>
 
 projects:
@@ -40,8 +40,8 @@ projects:
 certifications:
   - Linux+
   - LPIC-1 Linux Administrator
-  - Security+ [Expired]
-  - Network+ [Expired]
+  - Security+
+  - Network+
 info:
   profile: >-
     I am a driven graduate student, currently seeking a Master's in Computer Science. My wide variety of both personal and professional experience

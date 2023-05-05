@@ -3,6 +3,7 @@
     bg="gray-200"
     class="a4"
     dark:bg="gray-700"
+    print:bg="transparent"
     display="block"
     m="y-[1.5cm] x-auto"
     print:shadow="none"
@@ -48,6 +49,7 @@ html.dark body {
   .a4 {
     margin: 0 !important;
     width: 25cm !important;
+    box-shadow: none !important;
   }
 }
 </style>

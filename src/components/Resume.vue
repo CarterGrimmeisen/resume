@@ -30,7 +30,7 @@
 <style scoped>
 .wrapper {
   display: grid;
-  row-gap: 45px;
+  row-gap: 30px;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 190px auto 200px auto auto;
   grid-template-areas:
@@ -50,7 +50,7 @@
   margin-top: 45px;
 }
 .projects {
-  margin-bottom: 45px
+  margin-bottom: 30px
 }
 
 .profile,
