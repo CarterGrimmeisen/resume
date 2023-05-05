@@ -6,8 +6,8 @@
     print:bg="transparent"
     display="block"
     m="y-[1.5cm] x-auto"
-    print:shadow="none"
     shadow="lg"
+    print:shadow="none"
   >
     <Resume />
   </div>
@@ -46,6 +46,10 @@ html.dark body {
   }
 }
 @media print {
+  body {
+    @apply bg-transparent;
+  }
+
   .a4 {
     margin: 0 !important;
     width: 25cm !important;
