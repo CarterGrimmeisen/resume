@@ -12,8 +12,6 @@ const skillCount = computed(() => (messages.value as Messages)?.en?.skills?.leng
     <Headline>
       {{ t(`skills[${index - 1}].category`) }}
     </Headline>
-    <Paragraph>
-      {{ t(`skills[${index - 1}].items`) }}
-    </Paragraph>
+    <Paragraph v-html="t(`skills[${index - 1}].items`)" />
   </div>
 </template>

@@ -1,6 +1,6 @@
 education:
-  - completed: May 2023
-    degree: MS Software Engineering
+  - completed: In progress
+    degree: MS Computer Science
     institution: University of Alabama Huntsville
     gpa: "4.0"
   - completed: May 2022
@@ -12,16 +12,17 @@ experience:
     period: June 2022 - Present
     company: CFD Research
     description: >-
-      + Developed web-based, realtime event dashboard for monitoring and configuring in-house software-defined firewall <strong>(SvelteKit, JavaScript, SQL)</strong><br />
-      + Accelerated model development and DX with PyTorch dataloader for datasets stored in SQLite <strong>(Python, SQL)</strong><br />
-      + Simplified developer collaboration with Python monorepo tooling for AI/ML projects using Conda <strong>(Python)</strong><br />
+      + Led development team tasked with commercialization of academic <br />&emsp;space-weather simulation toolkit <strong>(Docker, Python)</strong><br />
+      + Integrated improvements to simulation algorithms with researchers<br />&emsp;<strong>(Python, C++)</strong><br />
+      + Developed web-based, realtime event dashboard for monitoring and <br />&emsp;configuring software-defined firewall <strong>(SvelteKit, JavaScript, SQL)</strong><br />
+      + Accelerated model training and research with custom, SQLite-backed, <br />&emsp;PyTorch dataloader <strong>(Python, SQL)</strong><br />
   - position: Software Engineer - Intern
     period: May 2020 - May 2022
     company: Northrop Grumman
     description: >-
       + Developed Ada mocking framework for unit testing legacy codebase <strong>(Ada)</strong><br />
-      + Scripted and documented metrics reporting process <strong>(Bash, Python)</strong><br />
-      + Received employee recognition award for automating complex email review process, saving hundreds of engineering hours per week <strong>(Powershell)</strong>
+      + Automated and documented metrics reporting process <strong>(Bash, Python)</strong><br />
+      + Received employee recognition award for automating complex email review <br />&emsp;process, saving hundreds of engineering hours per week <strong>(Powershell)</strong>
   - position: Software Developer
     period: March 2017 - May 2020
     company: Avilution, LLC.
@@ -37,16 +38,17 @@ projects:
     description: >-
       Generates Zod schemas for database models defined in your Prisma schema in order to validate user input.
     github: https://github.com/CarterGrimmeisen/zod-prisma
+  - name: PolyParts
+    technologies: 'Kotlin, Fabric, Polymer'
+    description: >-
+      A Minecraft mod that adds a variety of typically client-mod-requiring items and features for fully unmodded clients using the incredible Polymer library for Fabric.
+    github: https://github.com/CarterGrimmeisen/polyparts
 certifications:
   - Linux+
   - LPIC-1 Linux Administrator
   - Security+
   - Network+
 info:
-  profile: >-
-    I am a driven graduate student, currently seeking a Master's in Computer Science. My wide variety of both personal and professional experience
-    in the software field makes me a quick learner, no matter the tech stack. I am a solution-oriented engineer and have a passion for optimizing
-    developer experience. I love finding ways to speed up development, and I am continually thrilled to learn about up-and-coming technologies.
   title: Software Engineer
   github: CarterGrimmeisen
 label:
@@ -59,8 +61,8 @@ label:
   certifications: Certifications
 skills:
   - category: Programming Languages
-    items: "TypeScript, Python, Bash, Powershell, Rust, Java, C/C++, C#, Dart, Ada"
+    items: "Python, TypeScript, Bash, Rust, Java/Kotlin, C/C++, C#, Ada"
   - category: Frameworks and Runtimes
-    items: "Node.js, Jest, Express.js, Flask, Vue.js, Svelte, React, Electron, Flutter"
+    items: "Node.js, Express.js, Flask, Plotly&nbsp;Dash, MPI, Vue.js, Svelte, React, Electron, Flutter"
   - category: Development Tools
-    items: "Git, GitHub, Jenkins, PostgreSQL, SQLite, MongoDB"
+    items: "Git, GitHub, Docker, Docker&nbsp;Compose, CI/CD, PostgreSQL, SQLite, MongoDB, Conda"

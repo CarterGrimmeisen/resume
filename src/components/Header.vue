@@ -2,8 +2,6 @@
 import { isDark, toggleDark } from '~/logic'
 const { t } = useI18n()
 
-const isProduction = process.env.NODE_ENV === 'production'
-
 const doPrint = () => {
   const html = document.querySelector('html')
   const wasDark = html?.classList.contains('dark') ?? false
@@ -39,7 +37,6 @@ onBeforeUnmount(() => {
       m="b-[-62px]"
       print:display="hidden"
     >
-      <LanguageSwitcher v-if="!isProduction" m="r-[-20px]" p="10px" />
       <div flex="~ row">
         <Button
           m="r-[-10px]"

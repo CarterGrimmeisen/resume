@@ -6,9 +6,6 @@
     <div class="contacts">
       <Contacts />
     </div>
-    <div class="profile">
-      <Profile />
-    </div>
     <div class="skills">
       <Skills />
       <div class="certifications">
@@ -16,10 +13,10 @@
       </div>
     </div>
     <div class="experience">
+      <Experience />
       <div class="projects">
         <Projects />
       </div>
-      <Experience />
     </div>
     <div class="education">
       <Education />
@@ -35,7 +32,7 @@
   grid-template-rows: 190px auto 200px auto auto;
   grid-template-areas:
     "header header"
-    "contacts profile"
+    "contacts experience"
     "education experience"
     "skills experience"
     "skills experience";
@@ -53,7 +50,6 @@
   margin-bottom: 30px
 }
 
-.profile,
 .projects {
   padding: 0 45px 0 0;
 }
@@ -83,9 +79,6 @@
 .contacts {
   grid-area: contacts;
 }
-.profile {
-  grid-area: profile;
-}
 .skills {
   grid-area: skills;
 }
@@ -103,7 +96,6 @@
     grid-template-areas:
       "header"
       "contacts"
-      "profile"
       "experience"
       "education"
       "skills";
@@ -113,7 +105,6 @@
   }
   .contacts,
   .skills,
-  .profile,
   .experience,
   .skills,
   .education {
@@ -128,7 +119,7 @@
     grid-template-rows: auto auto 200px auto;
     grid-template-areas:
       "header header"
-      "contacts profile"
+      "contacts experience"
       "education experience"
       "skills experience"
   }
