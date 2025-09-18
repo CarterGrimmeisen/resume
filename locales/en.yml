@@ -9,7 +9,7 @@ education:
     gpa: "4.0"
 experience:
   - position: Software Engineer II
-    period: June 2022 - Present
+    period: June&nbsp;2022 - Present
     company: CFD Research Corp.
     description:
       - Directed development of Android/iOS application visualizing blast overpressure exposure for service members, delivering custom 2D and 3D scenario visualizations <strong>(React&nbsp;Native,&nbsp;TypeScript,&nbsp;VTK.js)</strong><br />
@@ -19,14 +19,14 @@ experience:
       - Engineered real-time, web-based event dashboard for monitoring and configuring a software-defined firewall <strong>(SvelteKit,&nbsp;JavaScript,&nbsp;SQL)</strong><br />
       - Optimized model training workflows by implementing custom SQLite-backed PyTorch dataloader, accelerating research throughput <strong>(Python,&nbsp;SQL)</strong><br />
   - position: Software Engineer - Intern
-    period: May 2020 - May 2022
+    period: May&nbsp;2020 - May&nbsp;2022
     company: Northrop Grumman
     description:
       - Created Ada mocking framework to enable unit testing within legacy codebase, improving test coverage and maintainability <strong>(Ada)</strong><br />
       - Automated and documented end-to-end metrics reporting workflow, enhancing reliability and reducing manual effort <strong>(Bash,&nbsp;Python)</strong><br />
       - Earned employee recognition award for developing automation that streamlined complex email review process, saving hundreds of engineering hours weekly <strong>(PowerShell)</strong><br />
   - position: Software Developer
-    period: March 2017 - May 2020
+    period: March&nbsp;2017 - May&nbsp;2020
     company: Avilution, LLC.
     description:
       - Implemented cryptographic signing for flight-critical configurations, enhancing security and integrity of avionics systems <strong>(C,&nbsp;ECDSA)</strong><br />
