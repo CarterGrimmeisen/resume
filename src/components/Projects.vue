@@ -25,7 +25,6 @@ const projectCount = computed(() => (messages.value as Messages)?.en?.projects?.
         </a>
 
         <p display="hidden" font="normal tracking-normal" print:display="block" text="paragraph black normal-case">
-          {{ t(`projects[${index - 1}].github`) }}
           {{ t(`projects[${index - 1}].npm`) }}
         </p>
       </SubTitle>
