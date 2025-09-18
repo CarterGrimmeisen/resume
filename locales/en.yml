@@ -8,9 +8,9 @@ education:
     institution: University of Alabama Huntsville
     gpa: "4.0"
 experience:
-  - position: Research Engineer
+  - position: Software Engineer II
     period: June 2022 - Present
-    company: CFD Research
+    company: CFD Research Corp.
     description: >-
       + Directed development of Android/iOS application visualizing blast <br />&emsp;overpressure exposure for service members, delivering 2D/3D scenario <br />&emsp;visualizations <strong>(React Native, TypeScript)</strong><br />
       + Orchestrated licensing, compilation, and packaging workflows to streamline <br />&emsp;deployment of internal Python applications and libraries <strong>(Python, Docker)</strong><br />
