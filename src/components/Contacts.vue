@@ -52,6 +52,18 @@ const { t } = useI18n()
       <a href="https://linkedin.com/in/carter-grimmeisen" target="_blank">carter-grimmeisen</a>
     </Paragraph>
   </div>
+  <div align="items-center" display="hidden" m="y-0 x-auto" print:flex="~">
+    <bi-globe2 dark:text="white" />
+    <Paragraph
+      class="contact"
+      dark:hover:text="blue-400"
+      hover:text="blue-500"
+      print:text="no-underline"
+      text="underline"
+    >
+      <a href="https://cartergrimmeisen.com" target="_blank">cartergrimmeisen.com</a>
+    </Paragraph>
+  </div>
 </template>
 
 <style scoped>

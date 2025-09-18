@@ -9,6 +9,7 @@ declare module 'vue' {
     BiEmailFill: typeof import('~icons/bi/email-fill')['default']
     BiEnvelopeFill: typeof import('~icons/bi/envelope-fill')['default']
     BiGithub: typeof import('~icons/bi/github')['default']
+    BiGlobe2: typeof import('~icons/bi/globe2')['default']
     BiLinkedin: typeof import('~icons/bi/linkedin')['default']
     BiMailFill: typeof import('~icons/bi/mail-fill')['default']
     BiMoon: typeof import('~icons/bi/moon')['default']
