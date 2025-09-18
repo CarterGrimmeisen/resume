@@ -19,7 +19,7 @@ export type Messages = Record<string, {
     position: string
     period: string
     company: string
-    description: string
+    description: string[]
   }[]
 
   projects: {

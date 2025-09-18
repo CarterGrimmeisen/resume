@@ -47,6 +47,7 @@ declare module 'vue' {
     Contacts: typeof import('./components/Contacts.vue')['default']
     Education: typeof import('./components/Education.vue')['default']
     Experience: typeof import('./components/Experience.vue')['default']
+    ExperienceBullet: typeof import('./components/ExperienceBullet.vue')['default']
     FileIconsNpm: typeof import('~icons/file-icons/npm')['default']
     Footer: typeof import('./components/Footer.vue')['default']
     Header: typeof import('./components/Header.vue')['default']

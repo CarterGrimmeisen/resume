@@ -3,6 +3,12 @@ import { Messages } from '../types'
 const { t, messages } = useI18n()
 
 const experienceCount = computed(() => (messages.value as Messages)?.en?.experience?.length)
+const experienceDescriptionCounts = computed(() => Array.from({ length: experienceCount.value + 1 }, (_, i) => (messages.value as Messages)?.en?.experience?.[i - 1]?.description?.length))
+const experienceDescriptions = computed(() => Array.from({ length: experienceCount.value + 1 }, (_, i) => Array.from({ length: experienceDescriptionCounts.value[i] }, (_, j) => t(`experience[${i - 1}].description[${j}]`))))
+
+function experienceForIndex(index: number, prop: string) {
+  return t(`experience[${index - 1}].${prop}`)
+}
 </script>
 
 <template>
@@ -12,16 +18,37 @@ const experienceCount = computed(() => (messages.value as Messages)?.en?.experie
   <section v-for="index in experienceCount" :key="index" last:m="0" m="b-2em">
     <section align="items-center" flex="~" justify="between">
       <SubTitle p="r-45px">
-        {{ t(`experience[${index - 1}].position`) }}
+        {{ experienceForIndex(index, 'position') }}
       </SubTitle>
       <SubTitle>
-        {{ t(`experience[${index - 1}].period`) }}
+        {{ experienceForIndex(index, 'period') }}
       </SubTitle>
     </section>
 
     <Headline>
-      {{ t(`experience[${index - 1}].company`) }}
+      {{ experienceForIndex(index, 'company') }}
     </Headline>
-    <Paragraph v-html="t(`experience[${index - 1}].description`)" />
+    <div class="bullets">
+      <p
+        v-for="(bullet, i) in experienceDescriptions[index]"
+        :key="i"
+        dark:text="gray-300"
+        font="leading-22px"
+        m="0"
+        p="r-30px"
+        text="15px gray-800"
+        v-html="'+ ' + bullet"
+      />
+    </div>
   </section>
 </template>
+
+<style scoped>
+.bullets {
+  padding-left: 15px;
+}
+
+.bullets p {
+  text-indent: -15px;
+}
+</style>

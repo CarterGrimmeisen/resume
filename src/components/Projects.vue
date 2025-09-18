@@ -17,11 +17,11 @@ const projectCount = computed(() => (messages.value as Messages)?.en?.projects?.
         </a>
       </SubTitle>
       <SubTitle>
-        <a :href="t(`projects[${index - 1}].github`)" target="_blank">
-          <bi-github dark:text="white" m="l-1" print:display="hidden" text="black" />
+        <a :href="t(`projects[${index - 1}].github`)" print:display="hidden" target="_blank">
+          <bi-github dark:text="white" m="l-1" text="black" />
         </a>
-        <a :href="t(`projects[${index - 1}].npm`)" target="_blank">
-          <simple-icons-npm dark:text="white" m="l-1" print:display="hidden" text="black" />
+        <a :href="t(`projects[${index - 1}].npm`)" m="l-1" print:display="hidden" target="_blank">
+          <simple-icons-npm dark:text="white" m="l-1" text="black" />
         </a>
 
         <p display="hidden" font="normal tracking-normal" print:display="block" text="paragraph black normal-case">

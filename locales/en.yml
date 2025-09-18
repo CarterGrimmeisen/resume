@@ -11,34 +11,34 @@ experience:
   - position: Software Engineer II
     period: June 2022 - Present
     company: CFD Research Corp.
-    description: >-
-      + Directed development of Android/iOS application visualizing blast <br />&emsp;overpressure exposure for service members, delivering 2D/3D scenario <br />&emsp;visualizations <strong>(React Native, TypeScript)</strong><br />
-      + Orchestrated licensing, compilation, and packaging workflows to streamline <br />&emsp;deployment of internal Python applications and libraries <strong>(Python, Docker)</strong><br />
-      + Led cross-functional team to commercialize academic space-weather simulation <br />&emsp;toolkit, transitioning research into production-ready software <strong>(Docker, Python)</strong><br />
-      + Built and deployed web-based dashboard to manage and execute alloy modeling <br />&emsp;simulations, improving accessibility and usability <strong>(Python, TypeScript, SQL)</strong><br />
-      + Engineered real-time, web-based event dashboard for monitoring and <br />&emsp;configuring a software-defined firewall <strong>(SvelteKit, JavaScript, SQL)</strong><br />
-      + Optimized model training workflows by implementing custom SQLite-backed <br />&emsp;PyTorch dataloader, accelerating research throughput <strong>(Python, SQL)</strong><br />
+    description:
+      - Directed development of Android/iOS application visualizing blast overpressure exposure for service members, delivering custom 2D and 3D scenario visualizations <strong>(React Native, TypeScript)</strong><br />
+      - Orchestrated licensing, compilation, and packaging workflows to streamline deployment of internal Python applications and libraries <strong>(Python, Docker)</strong><br />
+      - Led cross-functional team to commercialize academic space-weather simulation toolkit, transitioning research into production-ready software <strong>(Docker, Python)</strong><br />
+      - Built and deployed web-based dashboard to manage and execute alloy modeling simulations, improving accessibility and usability <strong>(Python, TypeScript, SQL)</strong><br />
+      - Engineered real-time, web-based event dashboard for monitoring and configuring a software-defined firewall <strong>(SvelteKit, JavaScript, SQL)</strong><br />
+      - Optimized model training workflows by implementing custom SQLite-backed PyTorch dataloader, accelerating research throughput <strong>(Python, SQL)</strong><br />
   - position: Software Engineer - Intern
     period: May 2020 - May 2022
     company: Northrop Grumman
-    description: >-
-      + Developed Ada mocking framework for unit testing legacy codebase <strong>(Ada)</strong><br />
-      + Automated and documented metrics reporting process <strong>(Bash, Python)</strong><br />
-      + Received employee recognition award for automating complex email review <br />&emsp;process, saving hundreds of engineering hours per week <strong>(Powershell)</strong>
+    description:
+      - Created Ada mocking framework to enable unit testing within legacy codebase, improving test coverage and maintainability <strong>(Ada)</strong><br />
+      - Automated and documented end-to-end metrics reporting workflow, enhancing reliability and reducing manual effort <strong>(Bash, Python)</strong><br />
+      - Earned employee recognition award for developing automation that streamlined complex email review process, saving hundreds of engineering hours weekly <strong>(PowerShell)</strong><br />
   - position: Software Developer
     period: March 2017 - May 2020
     company: Avilution, LLC.
-    description: >-
-      + Implemented cryptographic signing for flight critical configuration <strong>(C, ECDSA)</strong><br /> 
-      + Contributed to software avionics development <strong>(C)</strong><br />
-      + Constructed web-based application for aircraft management <br />&emsp;<strong>(MongoDB, Typescript, Vue.js)</strong><br />
-      + Designed desktop application to manage display layouts and graphics <br />&emsp;<strong>(Typescript, Node.js, Electron, Vue.js)</strong>
+    description:
+      - Implemented cryptographic signing for flight-critical configurations, enhancing security and integrity of avionics systems <strong>(C, ECDSA)</strong><br />
+      - Contributed to core avionics software development, improving reliability and performance of flight systems <strong>(C)</strong><br />
+      - Built web-based application for aircraft management, enabling efficient data handling and operational oversight <strong>(MongoDB, TypeScript, Vue.js)</strong><br />
+      - Designed and delivered desktop application for managing display layouts and graphics, streamlining user workflows <strong>(TypeScript, Node.js, Electron, Vue.js)</strong><br />
 
 projects:
   - name: Zod Prisma
     technologies: 'TypeScript, Prisma, Zod'
     description: >-
-      Generates Zod schemas for database models defined in your Prisma schema in order to validate user input.
+      Generates Zod schemas for database models defined in your Prisma schema in order to validate user input. Over <strong>1.5 million downloads</strong> on NPM and nearly <strong>900 stars</strong> on GitHub.
     github: https://github.com/CarterGrimmeisen/zod-prisma
     npm: https://www.npmjs.com/package/zod-prisma
 certifications:
@@ -59,8 +59,8 @@ label:
   certifications: Certifications
 skills:
   - category: Programming Languages
-    items: "Python, TypeScript, Bash, Rust, Java/Kotlin, C/C++, C#, Ada"
+    items: "Python, TypeScript, Bash, Rust, Java/Kotlin, C/C++, C#, Ada, HTML/CSS/JS"
   - category: Frameworks and Runtimes
-    items: "Node.js, Express.js, Flask, Plotly&nbsp;Dash, MPI, React, Vue.js, Svelte, Electron, Flutter"
+    items: "Node.js, Express.js, Flask, Plotly&nbsp;Dash, MPI, React, React Native, Vue.js, Svelte, Electron, Flutter"
   - category: Development Tools
-    items: "Git, GitLab, GitHub, Docker, Docker&nbsp;Compose, CI/CD, PostgreSQL, SQLite, MongoDB, Conda"
+    items: "Git, GitLab, GitHub, Docker, Docker&nbsp;Compose, CI/CD, PostgreSQL, SQLite, MongoDB, Conda, Cython"

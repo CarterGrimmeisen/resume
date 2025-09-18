@@ -29,7 +29,7 @@
   display: grid;
   row-gap: 30px;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: 190px auto auto auto auto;
+  grid-template-rows: 190px 175px 205px auto auto;
   grid-template-areas:
     "header header"
     "contacts experience"
@@ -112,11 +112,8 @@
   }
 }
 @media print {
-  .header {
-    margin-bottom: -45px;
-  }
   .wrapper {
-    grid-template-rows: auto auto 200px auto;
+    grid-template-rows: auto 200px 200px auto;
     grid-template-areas:
       "header header"
       "contacts experience"

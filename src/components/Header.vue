@@ -66,7 +66,7 @@ onBeforeUnmount(() => {
           {{ t('info.title') }}
         </SubTitle>
       </div>
-      <div class="person-photo">
+      <div class="person-photo" print:display="hidden">
         <img class="person-photo-image" src="../assets/profile.jpg" />
       </div>
     </div>
