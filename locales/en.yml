@@ -12,27 +12,27 @@ experience:
     period: June 2022 - Present
     company: CFD Research Corp.
     description:
-      - Directed development of Android/iOS application visualizing blast overpressure exposure for service members, delivering custom 2D and 3D scenario visualizations <strong>(React Native, TypeScript)</strong><br />
-      - Orchestrated licensing, compilation, and packaging workflows to streamline deployment of internal Python applications and libraries <strong>(Python, Docker)</strong><br />
-      - Led cross-functional team to commercialize academic space-weather simulation toolkit, transitioning research into production-ready software <strong>(Docker, Python)</strong><br />
-      - Built and deployed web-based dashboard to manage and execute alloy modeling simulations, improving accessibility and usability <strong>(Python, TypeScript, SQL)</strong><br />
-      - Engineered real-time, web-based event dashboard for monitoring and configuring a software-defined firewall <strong>(SvelteKit, JavaScript, SQL)</strong><br />
-      - Optimized model training workflows by implementing custom SQLite-backed PyTorch dataloader, accelerating research throughput <strong>(Python, SQL)</strong><br />
+      - Directed development of Android/iOS application visualizing blast overpressure exposure for service members, delivering custom 2D and 3D scenario visualizations <strong>(React&nbsp;Native,&nbsp;TypeScript,&nbsp;VTK.js)</strong><br />
+      - Orchestrated licensing, compilation, and packaging workflows to streamline deployment of internal Python applications and libraries <strong>(Python,&nbsp;Docker)</strong><br />
+      - Led cross-functional team to commercialize academic space-weather simulation toolkit, transitioning research into production-ready software <strong>(Docker,&nbsp;Python)</strong><br />
+      - Built and deployed web-based dashboard to manage and execute alloy modeling simulations, improving accessibility and usability <strong>(Python,&nbsp;TypeScript,&nbsp;SQL)</strong><br />
+      - Engineered real-time, web-based event dashboard for monitoring and configuring a software-defined firewall <strong>(SvelteKit,&nbsp;JavaScript,&nbsp;SQL)</strong><br />
+      - Optimized model training workflows by implementing custom SQLite-backed PyTorch dataloader, accelerating research throughput <strong>(Python,&nbsp;SQL)</strong><br />
   - position: Software Engineer - Intern
     period: May 2020 - May 2022
     company: Northrop Grumman
     description:
       - Created Ada mocking framework to enable unit testing within legacy codebase, improving test coverage and maintainability <strong>(Ada)</strong><br />
-      - Automated and documented end-to-end metrics reporting workflow, enhancing reliability and reducing manual effort <strong>(Bash, Python)</strong><br />
+      - Automated and documented end-to-end metrics reporting workflow, enhancing reliability and reducing manual effort <strong>(Bash,&nbsp;Python)</strong><br />
       - Earned employee recognition award for developing automation that streamlined complex email review process, saving hundreds of engineering hours weekly <strong>(PowerShell)</strong><br />
   - position: Software Developer
     period: March 2017 - May 2020
     company: Avilution, LLC.
     description:
-      - Implemented cryptographic signing for flight-critical configurations, enhancing security and integrity of avionics systems <strong>(C, ECDSA)</strong><br />
+      - Implemented cryptographic signing for flight-critical configurations, enhancing security and integrity of avionics systems <strong>(C,&nbsp;ECDSA)</strong><br />
       - Contributed to core avionics software development, improving reliability and performance of flight systems <strong>(C)</strong><br />
-      - Built web-based application for aircraft management, enabling efficient data handling and operational oversight <strong>(MongoDB, TypeScript, Vue.js)</strong><br />
-      - Designed and delivered desktop application for managing display layouts and graphics, streamlining user workflows <strong>(TypeScript, Node.js, Electron, Vue.js)</strong><br />
+      - Built web-based application for aircraft management, enabling efficient data handling and operational oversight <strong>(MongoDB,&nbsp;TypeScript,&nbsp;Vue.js)</strong><br />
+      - Designed and delivered desktop application for managing display layouts and graphics, streamlining user workflows <strong>(TypeScript,&nbsp;Node.js,&nbsp;Electron,&nbsp;Vue.js)</strong><br />
 
 projects:
   - name: Zod Prisma

@@ -32,10 +32,10 @@ function experienceForIndex(index: number, prop: string) {
       <p
         v-for="(bullet, i) in experienceDescriptions[index]"
         :key="i"
+        class="bullet"
         dark:text="gray-300"
         font="leading-22px"
         m="0"
-        p="r-30px"
         text="15px gray-800"
         v-html="'+ ' + bullet"
       />
@@ -48,7 +48,14 @@ function experienceForIndex(index: number, prop: string) {
   padding-left: 15px;
 }
 
-.bullets p {
+.bullet {
+  padding-right: 30px;
   text-indent: -15px;
+}
+
+@media (max-width: 25cm) {
+  .bullet {
+    padding-right: 0;
+  }
 }
 </style>
