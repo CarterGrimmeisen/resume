@@ -20,7 +20,7 @@ function experienceForIndex(index: number, prop: string) {
       <SubTitle p="r-45px">
         {{ experienceForIndex(index, 'position') }}
       </SubTitle>
-      <SubTitle>
+      <SubTitle text="right">
         {{ experienceForIndex(index, 'period') }}
       </SubTitle>
     </section>
