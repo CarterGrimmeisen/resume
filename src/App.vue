@@ -3,11 +3,11 @@
     bg="gray-200"
     class="a4"
     dark:bg="gray-700"
-    print:bg="transparent"
     display="block"
     m="y-[1.5cm] x-auto"
-    shadow="lg"
+    print:bg="transparent"
     print:shadow="none"
+    shadow="lg"
   >
     <Resume />
   </div>

@@ -80,7 +80,7 @@ const languageNames = {
 
 <style scoped>
 .current-language {
-  @apply text-red-500;
+  @apply text-blue-500;
 }
 .unselectable-text {
   -webkit-user-select: none;

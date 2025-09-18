@@ -12,10 +12,12 @@ experience:
     period: June 2022 - Present
     company: CFD Research
     description: >-
-      + Led development team tasked with commercialization of academic <br />&emsp;space-weather simulation toolkit <strong>(Docker, Python)</strong><br />
-      + Integrated improvements to simulation algorithms with researchers<br />&emsp;<strong>(Python, C++)</strong><br />
-      + Developed web-based, realtime event dashboard for monitoring and <br />&emsp;configuring software-defined firewall <strong>(SvelteKit, JavaScript, SQL)</strong><br />
-      + Accelerated model training and research with custom, SQLite-backed, <br />&emsp;PyTorch dataloader <strong>(Python, SQL)</strong><br />
+      + Directed development of Android/iOS application visualizing blast <br />&emsp;overpressure exposure for service members, delivering 2D/3D scenario <br />&emsp;visualizations <strong>(React Native, TypeScript)</strong><br />
+      + Orchestrated licensing, compilation, and packaging workflows to streamline <br />&emsp;deployment of internal Python applications and libraries <strong>(Python, Docker)</strong><br />
+      + Led cross-functional team to commercialize academic space-weather simulation <br />&emsp;toolkit, transitioning research into production-ready software <strong>(Docker, Python)</strong><br />
+      + Built and deployed web-based dashboard to manage and execute alloy modeling <br />&emsp;simulations, improving accessibility and usability <strong>(Python, TypeScript, SQL)</strong><br />
+      + Engineered real-time, web-based event dashboard for monitoring and <br />&emsp;configuring a software-defined firewall <strong>(SvelteKit, JavaScript, SQL)</strong><br />
+      + Optimized model training workflows by implementing custom SQLite-backed <br />&emsp;PyTorch dataloader, accelerating research throughput <strong>(Python, SQL)</strong><br />
   - position: Software Engineer - Intern
     period: May 2020 - May 2022
     company: Northrop Grumman
@@ -38,11 +40,7 @@ projects:
     description: >-
       Generates Zod schemas for database models defined in your Prisma schema in order to validate user input.
     github: https://github.com/CarterGrimmeisen/zod-prisma
-  - name: PolyParts
-    technologies: 'Kotlin, Fabric, Polymer'
-    description: >-
-      A Minecraft mod that adds a variety of typically client-mod-requiring items and features for fully unmodded clients using the incredible Polymer library for Fabric.
-    github: https://github.com/CarterGrimmeisen/polyparts
+    npm: https://www.npmjs.com/package/zod-prisma
 certifications:
   - Linux+
   - LPIC-1 Linux Administrator
@@ -63,6 +61,6 @@ skills:
   - category: Programming Languages
     items: "Python, TypeScript, Bash, Rust, Java/Kotlin, C/C++, C#, Ada"
   - category: Frameworks and Runtimes
-    items: "Node.js, Express.js, Flask, Plotly&nbsp;Dash, MPI, Vue.js, Svelte, React, Electron, Flutter"
+    items: "Node.js, Express.js, Flask, Plotly&nbsp;Dash, MPI, React, Vue.js, Svelte, Electron, Flutter"
   - category: Development Tools
-    items: "Git, GitHub, Docker, Docker&nbsp;Compose, CI/CD, PostgreSQL, SQLite, MongoDB, Conda"
+    items: "Git, GitLab, GitHub, Docker, Docker&nbsp;Compose, CI/CD, PostgreSQL, SQLite, MongoDB, Conda"

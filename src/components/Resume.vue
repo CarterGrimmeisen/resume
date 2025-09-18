@@ -29,7 +29,7 @@
   display: grid;
   row-gap: 30px;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: 190px auto 200px auto auto;
+  grid-template-rows: 190px auto auto auto auto;
   grid-template-areas:
     "header header"
     "contacts experience"
@@ -40,7 +40,7 @@
 .contacts,
 .skills,
 .education {
-  padding: 0 45px 0 45px;
+  padding: 0 22.5px 0 45px;
 }
 
 .certifications {

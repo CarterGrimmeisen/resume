@@ -11,8 +11,8 @@ const projectCount = computed(() => (messages.value as Messages)?.en?.projects?.
   </Title>
   <section v-for="index in projectCount" :key="index" m="b-1em">
     <section align="items-center" flex="~" justify="between">
-      <SubTitle hover:text="red-800" hover:dark:text="red-300">
-        <a :href="t(`projects[${index - 1}].github`)" target="_blank" print:text="!no-underline" style="text-decoration: underline">
+      <SubTitle hover:dark:text="blue-300" hover:text="blue-800">
+        <a :href="t(`projects[${index - 1}].github`)" print:text="!no-underline" style="text-decoration: underline" target="_blank">
           {{ t(`projects[${index - 1}].name`) }}
         </a>
       </SubTitle>
@@ -20,9 +20,13 @@ const projectCount = computed(() => (messages.value as Messages)?.en?.projects?.
         <a :href="t(`projects[${index - 1}].github`)" target="_blank">
           <bi-github dark:text="white" m="l-1" print:display="hidden" text="black" />
         </a>
+        <a :href="t(`projects[${index - 1}].npm`)" target="_blank">
+          <simple-icons-npm dark:text="white" m="l-1" print:display="hidden" text="black" />
+        </a>
 
         <p display="hidden" font="normal tracking-normal" print:display="block" text="paragraph black normal-case">
           {{ t(`projects[${index - 1}].github`) }}
+          {{ t(`projects[${index - 1}].npm`) }}
         </p>
       </SubTitle>
     </section>

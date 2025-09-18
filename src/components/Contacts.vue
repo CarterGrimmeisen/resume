@@ -8,8 +8,8 @@ const { t } = useI18n()
     <bi-telephone-fill dark:text="white" />
     <Paragraph
       class="contact"
-      dark:hover:text="red-400"
-      hover:text="red-500"
+      dark:hover:text="blue-400"
+      hover:text="blue-500"
       print:text="no-underline"
       text="underline"
     >
@@ -20,8 +20,8 @@ const { t } = useI18n()
     <bi-envelope-fill dark:text="white" />
     <Paragraph
       class="contact"
-      dark:hover:text="red-400"
-      hover:text="red-500"
+      dark:hover:text="blue-400"
+      hover:text="blue-500"
       print:text="no-underline"
       text="underline"
     >
@@ -32,8 +32,8 @@ const { t } = useI18n()
     <bi-github dark:text="white" />
     <Paragraph
       class="contact"
-      dark:hover:text="red-400"
-      hover:text="red-500"
+      dark:hover:text="blue-400"
+      hover:text="blue-500"
       print:text="no-underline"
       text="underline"
     >
@@ -44,8 +44,8 @@ const { t } = useI18n()
     <bi-linkedin dark:text="white" />
     <Paragraph
       class="contact"
-      dark:hover:text="red-400"
-      hover:text="red-500"
+      dark:hover:text="blue-400"
+      hover:text="blue-500"
       print:text="no-underline"
       text="underline"
     >
